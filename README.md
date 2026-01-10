@@ -2,6 +2,8 @@
 
 Builder focused on disciplined local AI systems, robotics-adjacent software, and automation tooling.
 
+I prioritize reliability, clear scope boundaries, and systems that function predictably in real environments over experimental or speculative stacks.
+
 I design and ship **scope-locked, production-minded systems** at the intersection of:
 - Embedded and automation workflows
 - Local-first AI tooling (LLMs, inference pipelines, developer tools)
