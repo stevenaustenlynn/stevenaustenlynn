@@ -1,29 +1,30 @@
-# Hi, I’m Steven 👋
+# Steven Austen Lynn
 
-I’m a software engineer focused on building disciplined, scope-locked systems with an emphasis on local AI inference and clean desktop applications.
+Builder focused on disciplined local AI systems, robotics-adjacent software, and automation tooling.
 
-## What I Work On
-- Local AI systems that run reliably without cloud dependencies
-- Desktop applications with minimal, intentional UX
-- Clear separation between execution-ready software and future vision
-- Projects that ship complete, documented, and versioned
+I design and ship **scope-locked, production-minded systems** at the intersection of:
+- Embedded and automation workflows
+- Local-first AI tooling (LLMs, inference pipelines, developer tools)
+- Reliability-focused desktop and control software
 
-## Featured Project
-### SAHM.ai v1
-A minimal desktop AI application that connects to a local language model via Ollama.
+Creator of **SAHM.ai v1**, a minimal desktop AI application built for predictable behavior, fast local inference, and clean UX.
 
-- PySide6 desktop GUI
-- Local inference (no cloud calls)
-- Explicit behavioral constraints
-- Scope-locked v1 release (v1.0.0)
+## What I care about
+- Systems that actually run in the real world
+- Clear boundaries between prototype and production
+- Tooling that multiplies developer and operator productivity
+- Automation that reduces complexity instead of adding it
 
-👉 Repository: **SAHM.ai v1**
+## Selected Work
+- **SAHM.ai v1** — Local desktop AI chat app using Ollama for reliable inference
+- **Guardian Pyramid (Showcase)** — Embedded ESP32 system with deterministic firmware, motion control, and LED orchestration
+- **Quantum Spin Master (Showcase)** — Electromechanical device with custom enclosure, power system, and motion reliability focus
 
-## Engineering Principles
-- Execution over speculation
-- Scope discipline over feature creep
-- Reliability over novelty
-- Human judgment remains primary
+## Background
+- Associate Degree — Advanced Automation & Robotics
+- 5 years hands-on experience in industrial automation and electrical systems
+- SACA C-201 Electrical Systems I (Silver)
+- IBM AI Developer Certificate — In progress (Expected 2026)
 
-## Current Focus
-Expanding into more advanced local AI systems, tooling, and interfaces while maintaining strong execution discipline.
+📍 Open to remote-first roles involving robotics software, automation tooling, AI infrastructure, or developer productivity.
+
