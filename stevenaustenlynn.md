@@ -1,48 +1,69 @@
-#Steven Austen Lynn
+# Steven Austen Lynn
 
-#AI & Automation Engineer
+**AI & Automation Engineer**
 
-I build applied-AI tools, SaaS systems, API integrations, automation workflows, and reliability-focused technical systems.
+Applied AI • LLM Integrations • APIs • Workflow Systems • Serverless • Industrial Automation
 
-My background combines industrial automation and controls with founder-led software engineering. I focus on systems that are bounded, testable, understandable, and useful in real operating environments.
+[LinkedIn](https://www.linkedin.com/in/steven-austen-lynn/) • [Vectorize Image](https://vectorize-image.com) • [SAHM.ai v1](https://github.com/stevenaustenlynn/SAHM.ai-v1)
 
-#Selected Work
-##Vectorize Image
+I build applied-AI systems, API integrations, automation workflows, internal tooling, and reliability-focused software.
+
+My background combines five years of industrial electromechanical automation with founder-led software and AI engineering. I focus on bounded, testable systems that operate predictably in real environments and preserve clear human control over consequential actions.
+
+## Selected Work
+
+### Vectorize Image — SaaS, AI Integration & Automation
 
 Browser-based SaaS for image and vector workflows.
 
-Work includes React, TypeScript/JavaScript, Node/Express, Vercel serverless functions, REST APIs, OpenAI Responses API integration, Supabase, Stripe, automated validation, testing, and controlled release workflows.
+Built with React, TypeScript/JavaScript, Node/Express, Vercel serverless functions, REST APIs, Supabase, Stripe, OpenAI Responses API integration, automated validation, benchmarking, and controlled release workflows.
+
+[Visit Vectorize Image](https://vectorize-image.com)
 
 Production source and proprietary vectorization implementation remain private.
 
-##SAHM.ai v1
+### Vectorize Local Control Plane — Governed Local AI Automation
 
-A deliberately scope-locked local AI desktop application built with Python, PySide6, and Ollama-hosted LLM inference.
+Built a local-first AI automation control plane using Python/FastAPI, SQLite WAL state, Ollama, scheduled workflows, multi-machine worker routing, retries, renewable leases, audit history, independent review, and human-gated action classes.
 
-The public v1 demonstrates local inference, desktop UX, explicit behavioral boundaries, and disciplined scope control.
+The system includes deterministic health and repository checks, backup/recovery behavior, worker authentication, structured model-output validation, and a 35-test acceptance suite.
 
-##Guardian Pyramid
+Private proprietary source; only high-level architecture and evidence-safe descriptions are presented publicly.
 
-Embedded automation and controls showcase using a state-driven architecture, physical sensors and inputs, servo motion, addressable lighting, and reliability-focused real-hardware troubleshooting.
+### SAHM.ai v1 — Local LLM Desktop Application
 
-##Technical Focus
-Applied AI and LLM integrations
-Python, TypeScript, and JavaScript
-REST APIs and webhooks
-React, Vite, Node.js, and Express
-Vercel and serverless application patterns
-Supabase and Stripe integrations
-Prompt engineering and governed AI-assisted workflows
-Testing, validation, and evidence-driven execution
-Industrial automation, PLCs, controls, and systems troubleshooting
-Engineering Approach
+Built a Windows-first local AI desktop application using Python, PySide6, and Ollama-hosted LLM inference.
 
-I distinguish prototypes from deployed systems, technical acceptance from business outcomes, and AI assistance from autonomous execution.
+The public v1 demonstrates local inference, desktop application architecture, explicit behavioral boundaries, and disciplined scope control.
 
-Private systems are represented through bounded architecture and case-study descriptions rather than publication of proprietary source.
+[View SAHM.ai v1](https://github.com/stevenaustenlynn/SAHM.ai-v1)
+
+### Starfall Command Bar — AI Workflow Operator Tooling
+
+Built a terminal-native operator toolbar for AI workflows under WSL and tmux with OpenTUI/Sixel rendering, live execution-state telemetry, bounded operator actions, runtime diagnostics, reconstruction tooling, and automated tests.
+
+Private proprietary source; presented publicly through an evidence-safe technical summary.
+
+## Technical Focus
+
+- Applied AI and LLM integration
+- Python and FastAPI
+- TypeScript and JavaScript
+- REST APIs, webhooks, and service integration
+- React, Node.js, Express, and Vercel serverless
+- Supabase, Stripe, and SQLite
+- Ollama and local-model workflows
+- Workflow automation and internal tooling
+- Testing, validation, observability, and governed execution
+- Industrial automation, PLCs, HMIs, VFDs, and systems troubleshooting
 
 ## Background
-- Associate Degree — Advanced Automation & Robotics
-- 5 years hands-on experience in industrial automation and electrical systems
-- SACA C-201 Electrical Systems I (Silver)
-- IBM AI Developer Certificate — In progress (Expected 2026)
+
+- Associate Degree — Advanced Automation & Robotics, Southeastern Community College
+- Five years of industrial electromechanical maintenance and automation experience
+
+## Engineering Approach
+
+I favor clear interfaces, bounded automation, deterministic verification, observable failure modes, and human approval where consequences warrant it.
+
+I distinguish prototypes from deployed systems, industrial automation from software automation, and AI-assisted execution from autonomous systems.
