@@ -10,6 +10,8 @@ I build applied-AI systems, automation workflows, internal tooling, and reliabil
 
 My background spans more than seven years of technical systems work, including five years in industrial electromechanical automation and founder-led software and AI engineering since 2024. I bring production troubleshooting, controls thinking, software delivery, and a strong bias toward evidence, explicit authority boundaries, and human oversight for consequential actions.
 
+My day-to-day software engineering workflow is command-line-first. I use Codex CLI inside WSL/tmux with Git and repository-native tooling to reproduce, isolate, debug, test, and verify results locally. Hierophant and Trinity add bounded reasoning, execution, evidence, and acceptance controls around that workflow, while Starfall keeps concurrent terminals, worktrees, tests, and AI-assisted execution operationally legible.
+
 ## Selected Work
 
 ### Vectorize Image — SaaS, AI Integration & Automation
@@ -51,7 +53,7 @@ Core repositories and operating protocols remain private. Public descriptions ex
 
 Built a terminal-native operator toolbar for AI-assisted engineering under WSL and tmux, running in a Windows Terminal sibling pane with OpenTUI/Sixel rendering and live execution-state telemetry.
 
-I built Starfall to reduce context switching and operator confusion while working across concurrent terminals, worktrees, tests, diagnostics, and AI-assisted execution. It keeps the active working terminal intact while exposing bounded actions, live `IDLE` / `LISTENING` / `THINKING` / `SPEAKING` state, runtime diagnostics, reconstruction tooling, and automated tests in a persistent lower control surface.
+I built Starfall to reduce context switching and operator confusion while working across Codex CLI sessions, concurrent terminals, Git worktrees, tests, diagnostics, and AI-assisted execution. It keeps the active working terminal intact while exposing bounded actions, live `IDLE` / `LISTENING` / `THINKING` / `SPEAKING` state, runtime diagnostics, reconstruction tooling, and automated tests in a persistent lower control surface.
 
 Starfall is now part of my day-to-day engineering workflow rather than a standalone demo.
 
@@ -59,6 +61,7 @@ Private proprietary source; presented publicly through an evidence-safe technica
 
 ## Technical Focus
 
+- Command-line-first engineering with Codex CLI, WSL/tmux, Git, repository-native tooling, and local reproduction, fault isolation, debugging, testing, and verification
 - Applied AI, LLM integrations, and human-in-the-loop automation
 - Python, FastAPI, TypeScript, JavaScript, React, Node.js, and Express
 - REST APIs, webhooks, OpenAI Responses API, Ollama, Supabase, Stripe, and SQLite
@@ -76,6 +79,8 @@ Private proprietary source; presented publicly through an evidence-safe technica
 ## Engineering Approach
 
 I treat engineering as a closed-loop control problem: establish the current state and desired state, identify the active constraint, choose the minimum sufficient intervention, execute within explicit boundaries, verify what actually changed, and feed the evidence back into the next decision.
+
+In practice, that process is primarily CLI-driven: reproduce the actual state locally, isolate the first causal failure, make the smallest bounded correction, run the relevant checks, and preserve enough evidence to determine whether the result should be accepted.
 
 Correctness comes first. After that, I optimize for the shortest evidence-backed path to the target state by reducing elapsed time, unnecessary context and token use, operator attention, retries, duplicated work, and avoidable rework. When useful, I instrument those dimensions so the method can improve from measured outcomes rather than intuition alone.
 
