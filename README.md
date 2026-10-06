@@ -34,6 +34,8 @@ Built a read-only service exposing nine Model Context Protocol (MCP) analysis to
 
 The service connects search data to AI-assisted analysis through a defined tool interface. Validation included 72 passing tests plus remote initialization, tool discovery, and call verification.
 
+[View the ChatGPT integration](https://chatgpt.com/plugins/plugin_asdk_app_6ab6f86670388191b881a34115090e3c?search=vectori)
+
 ### Vectorize Engine R&D — Image Processing & Computational Geometry
 
 Lead proprietary raster-to-vector research using Python, Shapely/GEOS, deterministic geometry analysis, development/holdout separation, exact replay, topology and source-protection checks, and regression testing.
