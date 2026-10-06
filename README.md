@@ -2,86 +2,90 @@
 
 **AI & Automation Engineer**
 
-Applied AI • AI Workflow Systems • APIs • Local AI Systems • Serverless • Reliability Engineering
+Python • FastAPI • Applied AI • MCP • Workflow Automation • Production SaaS
 
 [LinkedIn](https://www.linkedin.com/in/steven-austen-lynn/) • [Vectorize Image](https://vectorize-image.com)
 
-I build applied-AI systems, automation workflows, internal tooling, and reliability-focused software that turns complex technical work into bounded, observable, and testable execution.
+I build software that connects AI models, APIs, automation, and reliable execution. My work includes production SaaS, distributed AI workflows, MCP tools, evaluation systems, and computational-geometry research.
 
-My background spans more than seven years of technical systems work, including five years in industrial electromechanical automation and founder-led software and AI engineering since 2024. I bring production troubleshooting, controls thinking, software delivery, and a strong bias toward evidence, explicit authority boundaries, and human oversight for consequential actions.
+As the founder of Quantum Grove, I work across discovery, implementation, testing, deployment, observability, and recovery. My background includes more than seven years of technical systems experience: five years in industrial electromechanical maintenance and automation, and founder-led software and AI engineering since 2024.
 
-My day-to-day software engineering workflow is command-line-first. I use Codex CLI inside WSL/tmux with Git and repository-native tooling to reproduce, isolate, debug, test, and verify results locally. Hierophant and Trinity add bounded reasoning, execution, evidence, and acceptance controls around that workflow, while Starfall keeps concurrent terminals, worktrees, tests, and AI-assisted execution operationally legible.
+I am targeting fully remote AI and automation engineering roles.
 
 ## Selected Work
 
-### Vectorize Image — SaaS, AI Integration & Automation
+### Vectorize Image — Production SaaS & AI Integration
 
-Browser-based SaaS for image and vector workflows.
+Built and operate a browser-based SaaS for image and vector workflows using React, Vite, TypeScript/JavaScript, Node.js/Express, Vercel serverless functions, Supabase, Stripe, REST APIs, and the OpenAI Responses API.
 
-Built with React, TypeScript/JavaScript, Node/Express, Vercel serverless functions, REST APIs, Supabase, Stripe, OpenAI Responses API integration, automated validation, benchmarking, and controlled release workflows.
+The product combines image-processing workflows, AI integration, automated validation, and controlled releases. My responsibilities span implementation, testing, deployment, and ongoing operation.
 
 [Visit Vectorize Image](https://vectorize-image.com)
 
-Production source and proprietary vectorization implementation remain private.
+### Vectorize Local Control Plane — Distributed AI Automation
 
-### Vectorize Local Control Plane — Governed Local AI Automation
+Built a local-first Python/FastAPI control plane using SQLite WAL state, Ollama, scheduled workflows, and authenticated multi-machine workers.
 
-Built a local-first AI automation control plane using Python/FastAPI, SQLite WAL state, Ollama, scheduled workflows, multi-machine worker routing, retries, renewable leases, audit history, independent review, and human-gated action classes.
+Implemented retries, renewable leases, structured model-output validation, audit history, independent review, backup/recovery controls, and human-gated actions. Validated with a 35-test acceptance suite.
 
-The system includes deterministic health and repository checks, structured model-output validation, worker authentication, backup/recovery behavior, confidence and escalation policy, and a 35-test acceptance suite. Local model output is treated as evidence and recommendation rather than authority.
+### Search Intelligence Service — MCP Tools & API Integration
 
-Private proprietary source; high-level architecture and evidence-safe descriptions are presented publicly.
+Built a read-only service exposing nine Model Context Protocol (MCP) analysis tools across Google Search Console and Bing Webmaster data.
 
-### Magnum Opus — Governed AI Engineering Architecture
+The service connects search data to AI-assisted analysis through a defined tool interface. Validation included 72 passing tests plus remote initialization, tool discovery, and call verification.
 
-Magnum Opus is a private three-system research and engineering architecture for making AI-assisted work more selective, governed, measurable, and improvable across complex technical projects.
+### Vectorize Engine R&D — Image Processing & Computational Geometry
 
-**Hierophant — Adaptive Reasoning & Execution Control**  
-Selects the minimum sufficient reasoning depth, tools, evidence requirements, verification method, execution surface, and stop conditions for a task. Consequential technical work can be routed through a hardened assurance path covering current-state verification, environment/toolchain proof, executable validation, causal failure attribution, repair propagation, and evidence.
+Lead proprietary raster-to-vector research using Python, Shapely/GEOS, deterministic geometry analysis, development/holdout separation, exact replay, topology and source-protection checks, and regression testing.
 
-**Trinity — Project-Native Strategy, Governance & Engineering Compilation**  
-Constructs project-specific operating architectures from the project's actual objectives, sources of truth, authority model, constraints, risks, execution surfaces, and acceptance requirements. It separates strategic selection, authorization, engineering compilation, execution evidence, acceptance, and outcome feedback rather than collapsing them into a single agent decision.
+Qualified bounded reconstruction mechanisms for straight runs, corners, mixed joins, full ellipses, and convex superellipses. Accepted ellipse and superellipse holdout evaluations recorded zero false promotions and zero regressions within the evaluated cases.
 
-**Athanor — Workflow Intelligence, Measurement & Optimization**  
-Observes and benchmarks AI-assisted workflows, compiles bounded context, records execution evidence, and compares quality, elapsed time, token/context usage, operator attention, retries, and other workflow costs. Its purpose is to improve method from measured evidence without optimizing away correctness, authority, or owner control.
+### Deterministic Research Runtime — Sacred Geometry AI
 
-Current Athanor v0.1 validation includes 57/57 core tests, a live Codex workflow acceptance run, a frozen 12-case representative benchmark, and a paired context-compiler benchmark that passed quality, acceptance-rate, authority, and regression gates; efficiency superiority has not been established.
+Built a synthetic geometry research laboratory with preregistered discovery/holdout separation, deterministic checkpoints and replay, negative-result retention, and independent rendering.
 
-Core repositories and operating protocols remain private. Public descriptions expose capabilities, validation evidence, and engineering boundaries without publishing proprietary control logic.
+Initial qualification replayed 336 records exactly, with all 96 controls passing. A subsequent bounded runtime qualification completed 504/504 exact reproductions, 171/171 tests, 7/7 recovery tests, and six forced-process-kill exercises, with zero duplicates, failures, or exceptions recorded during the canary.
 
-### Starfall Command Bar — AI Workflow Operator Tooling
+### Agentic Matrix — AI Engineering Workflow Evaluation
 
-Built a terminal-native operator toolbar for AI-assisted engineering under WSL and tmux, running in a Windows Terminal sibling pane with OpenTUI/Sixel rendering and live execution-state telemetry.
+Designed and ran a 24-unit study comparing AI-assisted engineering workflows through matched tasks, quality checks, holdout evaluation, execution-time measurement, and token accounting.
 
-I built Starfall to reduce context switching and operator confusion while working across Codex CLI sessions, concurrent terminals, Git worktrees, tests, diagnostics, and AI-assisted execution. It keeps the active working terminal intact while exposing bounded actions, live `IDLE` / `LISTENING` / `THINKING` / `SPEAKING` state, runtime diagnostics, reconstruction tooling, and automated tests in a persistent lower control surface.
+The study retained the existing workflow because the added routing approaches did not meet the criteria for adoption. A separate two-case review experiment detected defects missed by deterministic checks, providing a limited result for further study. Preserved per-run metrics, experiment records, and the decision rationale.
 
-Starfall is now part of my day-to-day engineering workflow rather than a standalone demo.
+### Developer Workflow Tools — Codex Beacon & Starfall
 
-Private proprietary source; presented publicly through an evidence-safe technical summary.
+**Codex Beacon — Physical Notifications for AI Workflows**  
+Built a personal developer tool connecting Codex CLI workflow events to an ESP32-C6 device with addressable LEDs, a physical acknowledgment button, and a Python-based Windows/WSL notification path. The system combines visual alerts and Windows audio to signal task completion and operator attention outside the terminal.
+
+**Starfall Command Bar — Terminal Workflow Visibility**  
+Built a terminal-native operator toolbar for WSL/tmux with OpenTUI/Sixel rendering, live execution-state telemetry, bounded actions, diagnostics, and automated tests. It supports work across Codex CLI sessions, concurrent terminals, Git worktrees, and verification tasks while preserving the active working terminal.
+
+Production source, proprietary algorithms, internal protocols, and research data remain private. These summaries describe selected capabilities and completed validation work.
 
 ## Technical Focus
 
-- Command-line-first engineering with Codex CLI, WSL/tmux, Git, repository-native tooling, and local reproduction, fault isolation, debugging, testing, and verification
-- Applied AI, LLM integrations, and human-in-the-loop automation
-- Python, FastAPI, TypeScript, JavaScript, React, Node.js, and Express
-- REST APIs, webhooks, OpenAI Responses API, Ollama, Supabase, Stripe, and SQLite
-- Local-first AI systems, worker routing, retries, leases, review, and escalation
-- Serverless application architecture and production-oriented SaaS workflows
-- Testing, benchmarking, deterministic validation, observability, and regression control
-- Prompt and agent-execution contracts with explicit scope, permissions, evidence, and stop conditions
-- Root-cause troubleshooting, feedback loops, fault isolation, recovery, and systems integration
+- **Applied AI:** OpenAI Responses API, Ollama, LLM workflows, MCP tool integration, structured model-output validation, and human-in-the-loop controls
+- **Software & APIs:** Python, FastAPI, TypeScript, JavaScript, React, Vite, Node.js, Express, REST APIs, and webhooks
+- **Data & Infrastructure:** SQLite WAL, Supabase, Stripe, Vercel serverless functions, and authenticated multi-machine workers
+- **Evaluation & Research:** experiment design, matched comparisons, holdout evaluation, deterministic replay, regression testing, and workflow measurement
+- **Reliability:** scheduling, retries, leases, fault injection, crash recovery, observability, and root-cause analysis
+- **Image Processing:** computational geometry, raster-to-vector research, and Shapely/GEOS
+- **Engineering Tools:** Codex CLI, Git, WSL, tmux, prompt/context engineering, and repository-native debugging and verification
 
 ## Background
 
-- Associate Degree — Advanced Automation & Robotics, Southeastern Community College
-- Five years of industrial electromechanical maintenance and automation experience, with founder-led software and AI engineering since 2024
+- Founder | AI & Automation Engineer — Quantum Grove, January 2024–Present
+- Industrial electromechanical maintenance and automation — Conagra Foods, June 2019–June 2024
+- Associate Degree — Advanced Automation & Robotics, Southeastern Community College, 2019
+
+My industrial experience includes Allen-Bradley ControlLogix, CompactLogix, and MicroLogix PLCs, PanelView HMIs, VFDs, motors, sensors, pneumatics, and production-system troubleshooting.
 
 ## Engineering Approach
 
-I treat engineering as a closed-loop control problem: establish the current state and desired state, identify the active constraint, choose the minimum sufficient intervention, execute within explicit boundaries, verify what actually changed, and feed the evidence back into the next decision.
+I establish the current state and target behavior, identify the active constraint, make the smallest useful intervention, and verify the result against explicit acceptance criteria.
 
-In practice, that process is primarily CLI-driven: reproduce the actual state locally, isolate the first causal failure, make the smallest bounded correction, run the relevant checks, and preserve enough evidence to determine whether the result should be accepted.
+My workflow is command-line-first, using AI-assisted development alongside local reproduction, causal debugging, tests, and direct inspection of results. I prioritize clear interfaces, observable failures, reproducible evaluation, recovery, and human control over consequential actions.
 
-Correctness comes first. After that, I optimize for the shortest evidence-backed path to the target state by reducing elapsed time, unnecessary context and token use, operator attention, retries, duplicated work, and avoidable rework. When useful, I instrument those dimensions so the method can improve from measured outcomes rather than intuition alone.
+I also developed **Magnum Opus**, a workflow architecture combining **Hierophant** for reasoning and execution-method selection, **Trinity** for project-specific constraints and acceptance, and **Athanor** for workflow measurement. These methods support the engineering work described above.
 
-I favor clear interfaces, bounded automation, deterministic verification, observable failure modes, reversibility where practical, and human approval where consequences warrant it. I distinguish prototypes from deployed systems, industrial automation from software automation, and AI-assisted execution from autonomous authority.
+[View the Magnum Opus architecture overview](https://github.com/stevenaustenlynn/Magnum_Opus)
