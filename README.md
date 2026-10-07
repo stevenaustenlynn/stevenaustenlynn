@@ -54,6 +54,8 @@ Designed and ran a 24-unit study comparing AI-assisted engineering workflows thr
 
 The study retained the existing workflow because the added routing approaches did not meet the criteria for adoption. A separate two-case review experiment detected defects missed by deterministic checks, providing a limited result for further study. Preserved per-run metrics, experiment records, and the decision rationale.
 
+[View the Agentic Matrix evaluation framework and Stage-A study](https://github.com/stevenaustenlynn/agentic_matrix)
+
 ### Developer Workflow Tools — Codex Beacon & Starfall
 
 **Codex Beacon — Physical Notifications for AI Workflows**  
