@@ -14,6 +14,14 @@ I am targeting fully remote AI and automation engineering roles.
 
 ## Selected Work
 
+### ProofLab — Open-Source Python CLI for Reproducible Engineering Experiments
+
+**[GitHub repository](https://github.com/stevenaustenlynn/prooflab) · [Install from PyPI](https://pypi.org/project/prooflab/) · v0.1.0 · MIT License**
+
+Created and published a local-first Python CLI that captures source and input snapshots, records experiment outputs and typed measurements, compares variants against explicit policies, and produces evidence packages that can be checked offline with SHA-256. Reports can be generated from verified evidence without rerunning the experiment.
+
+The runtime uses only Python's standard library. GitHub Actions passes **418 synthetic regression tests** on Ubuntu across **Python 3.11, 3.12, and 3.13**. The CLI distinguishes operational success, evidence integrity, and scientific PASS/FAIL/INCONCLUSIVE outcomes; verification does not imply that an experiment scientifically passed.
+
 ### Vectorize Image — Production SaaS & AI Integration
 
 Built and operate a browser-based SaaS for image and vector workflows using React, Vite, TypeScript/JavaScript, Node.js/Express, Vercel serverless functions, Supabase, Stripe, REST APIs, and the OpenAI Responses API.
